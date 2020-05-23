@@ -13,6 +13,6 @@ app.get("/bye", function(req, res){
 app.get("*", function(req,res){
 	res.send("Error Not Found!");
 });
-app.listen(process.env.PORT||3000, process.env.IP,function(){
+app.listen(process.env.PORT, process.env.IP,function(){
 	console.log("Port Running!");
 });
