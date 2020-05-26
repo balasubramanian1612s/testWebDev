@@ -8,7 +8,7 @@ app.get("/hi", function(req, res){
 	res.send("Hi Da!");
 });
 app.get("/bye", function(req, res){
-	res.send("Bye Da!");
+	res.send("Bye sljdmvls!");
 });
 app.get("*", function(req,res){
 	res.send("Error Not Found!");
